@@ -9,6 +9,7 @@ on:
       - '.config/**'
       - '.github/**'
       - '.idea/**'
+      - '.run/**'
       - 'assets/**'
   pull_request:
     types: [opened, synchronize, reopened]
@@ -17,6 +18,7 @@ on:
       - '.config/**'
       - '.github/**'
       - '.idea/**'
+      - '.run/**'
       - 'assets/**'
 
 env:
