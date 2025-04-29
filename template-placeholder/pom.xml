@@ -20,6 +20,13 @@
 
 	<inceptionYear>2023</inceptionYear>
 
+	<developers>
+		<developer>
+			<name>litetex</name>
+			<url>https://github.com/litetex</url>
+		</developer>
+	</developers>
+
 	<licenses>
 		<license>
 			<name>Apache-2.0</name>
