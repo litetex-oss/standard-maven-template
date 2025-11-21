@@ -32,7 +32,7 @@ jobs:
         java: [17, 21]
         distribution: [temurin]
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
 
     - name: Set up JDK
       uses: actions/setup-java@v5
@@ -85,7 +85,7 @@ jobs:
         java: [17]
         distribution: [temurin]
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
 
     - name: Set up JDK
       uses: actions/setup-java@v5
@@ -121,7 +121,7 @@ jobs:
         java: [17]
         distribution: [temurin]
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
 
     - name: Set up JDK
       uses: actions/setup-java@v5
